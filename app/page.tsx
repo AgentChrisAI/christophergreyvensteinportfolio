@@ -146,7 +146,7 @@ export default function Portfolio() {
                 Talk to my AI agent
               </Link>
               <a
-                href="mailto:chris@copilothq.co"
+                href="mailto:christopher.greyvenstein@gmail.com"
                 className="px-6 py-3 rounded-xl border border-gray-200 text-sm font-medium text-zinc-600 hover:border-gray-300 hover:text-[#19191D] transition-colors"
               >
                 Get in touch
@@ -402,7 +402,7 @@ export default function Portfolio() {
             </p>
             <div className="flex flex-wrap gap-3">
               <a
-                href="mailto:chris@copilothq.co"
+                href="mailto:christopher.greyvenstein@gmail.com"
                 className="px-6 py-3 rounded-xl bg-[#19191D] text-white text-sm font-medium hover:bg-[#31343E] transition-colors"
               >
                 Get in touch

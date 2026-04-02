@@ -1,9 +1,5 @@
 import { Pinecone } from "@pinecone-database/pinecone";
 
-const pc = new Pinecone({
-  apiKey: process.env.PINECONE_API_KEY!,
-});
-
 async function embed(text: string): Promise<number[]> {
   const res = await fetch("https://openrouter.ai/api/v1/embeddings", {
     method: "POST",
@@ -33,6 +29,7 @@ export async function queryKB(
 ): Promise<{ text: string; section: string; score: number }[]> {
   try {
     const vector = await embed(query);
+    const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY! });
     const index = pc
       .index(process.env.PINECONE_INDEX!)
       .namespace(process.env.PINECONE_NAMESPACE!);

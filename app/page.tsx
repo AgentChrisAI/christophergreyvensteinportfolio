@@ -111,12 +111,6 @@ export default function Portfolio() {
       <section className="pt-36 pb-24 px-5 md:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-gray-200 bg-gray-50 mb-8">
-              <span className="w-2 h-2 rounded-full bg-[#2CB463]" />
-              <span className="text-xs text-zinc-500 font-medium">
-                Available for new opportunities · Brisbane, QLD
-              </span>
-            </div>
 
             <h1 className="text-5xl md:text-[64px] font-light tracking-[-2px] leading-[1.05] mb-6 text-[#19191D]">
               I design and build systems
